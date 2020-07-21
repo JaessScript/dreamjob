@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Here Are Your Results!</title>
+
+    <script>
+        var confidence = document.getElementById('confidence');
+        confidence.setAttribute("value", "30");
+    </script>
+</head>
+
+<body>
+    <h1>Here Are Your Results!</h1>
+
+    <p>
+        Thanks for your interest in working with us. We have reviewed your
+        application and decided to move forward with other candidates who
+        are a closer match for this particular role. We’re sorry that we
+        don’t have better news, and we appreciate the effort you put into
+        your application. Please don’t be discouraged from applying for other
+        jobs at our company – we’d love to hear from you whenever you spot an
+        opportunity that interests you! <br /><br />
+        In order to come with this decision,
+        we have implemented an AI algorithm that tracks and analyses your facial
+        expression, posture, eye movements, speed, and style of typing. The
+        answers you provided have not been taken into consideration at any point.
+        Below you will find all the categories we have analysed and the percentages
+        you received. <br /><br />
+        Our 99%-accurate state-of-the-art AI algorithm found the
+        following results:
+    </p>
+    <br />
+    <p>CONFIDENCE:</p>
+    <progress id="confidence" value="" max="100"></progress>
+</body>
+
+</html>
