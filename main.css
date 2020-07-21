@@ -33,7 +33,14 @@ body {
 
 .header {
     order: 1;
+    display: flex;
+    flex-direction: column;
     background: tomato;
+    font-size: xx-large;
+}
+
+img {
+    align-self: center;
 }
 
 .footer {
