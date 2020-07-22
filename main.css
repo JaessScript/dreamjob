@@ -35,7 +35,8 @@ body {
     order: 1;
     display: flex;
     flex-direction: column;
-    background: tomato;
+    /* background: tomato; */
+    background-color: #8bbdd6;
     font-size: xx-large;
 }
 
@@ -45,7 +46,8 @@ img {
 
 .footer {
     order: 4;
-    background: lightgreen;
+    /* background: lightgreen; */
+    background-color: #8bbdd6;
 }
 
 .wrapper-middle {
@@ -54,13 +56,13 @@ img {
     flex-direction: row wrap;
 
     text-align: left;
-    background: deepskyblue;
+    /* background: deepskyblue; */
 }
 
 .aside-1 {
     order: 1;
     flex-basis: 30%;
-    background: gold;
+    /* background: gold; */
 }
 
 .main {
@@ -71,5 +73,5 @@ img {
 .aside-2 {
     order: 3;
     flex-basis: 30%;
-    background: hotpink;
+    /* background: hotpink; */
 }
